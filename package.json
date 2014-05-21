@@ -1,0 +1,37 @@
+{
+  "name": "oak-startup",
+  "version": "0.0.1",
+  "description": "oak nodejs startup project",
+  "keywords":["startup"],
+  "homepage": "https://github.com/oakfire/OakNodejsStartup",
+  "bugs": {
+      "url": "https://github.com/oakfire/OakNodejsStartup/issues",
+      "email": "oakwatcher@gmail.com"
+  },
+  "main": "oak-app.js",
+  "scripts": {
+    "start":"node oak-app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "optimist": "*",
+    "moment": "*",
+    "log4js": "~0.6.13",
+    "mkdirp": "~0.3.5",
+    "lodash": "~2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oakfire/OakNodejsStartup.git"
+  },
+  "author": "Xiaopei Li <xiaopei.li@geneegroup.com> (http://xiaopei.li/)",
+  "contributors": [
+    "Xiaopei Li <xiaopei.li@geneegroup.com> (http://xiaopei.li/)",
+    "oakfire <oakwatcher@gmail.com> (http://oak71.com)"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.4.0"
+  }
+}
