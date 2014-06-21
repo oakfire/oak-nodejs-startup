@@ -10,15 +10,20 @@
   },
   "main": "oak-app.js",
   "scripts": {
-    "start":"node oak-app.js",
+    "start":"node bin/oak-app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "optimist": "*",
     "moment": "*",
-    "log4js": "~0.6.13",
-    "mkdirp": "~0.3.5",
-    "lodash": "~2.4.1"
+    "winston": "~0.7.3", 
+    "mkdirp": "~0.3.5"
+  },
+  "devDependencies": {
+    "nodemon":"^1.2.0",
+    "mocha":"^1.20.1",
+    "should":"^4.0.4"
+
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
-var logger = require('./lib/logger')('oak-app');
-var config = require('./lib/config');
+var logger = require('../lib/logger')('oak-app');
+var config = require('../lib/config');
 
 logger.info('oak-app started, pid: ' + process.pid);
 

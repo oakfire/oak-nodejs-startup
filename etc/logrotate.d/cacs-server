@@ -1,0 +1,9 @@
+# /home/xiaopei.li/nodejs/cacs-server/logs/*.log {
+/home/genee/cacs-server/logs/*.log {
+  weekly
+  rotate 12
+  compress
+  notifempty
+  missingok
+  copytruncate
+}
