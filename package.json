@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oakfire/OakNodejsStartup.git"
+    "url": "https://github.com/oakfire/oak-nodejs-startup.git"
   },
   "author": "Xiaopei Li <xiaopei.li@geneegroup.com> (http://xiaopei.li/)",
   "contributors": [
