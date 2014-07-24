@@ -5,10 +5,10 @@
   "keywords": [
     "startup"
   ],
-  "homepage": "https://github.com/oakfire/OakNodejsStartup",
+  "homepage": "https://github.com/oakfire/oak-nodejs-startup",
   "bugs": {
-    "url": "https://github.com/oakfire/OakNodejsStartup/issues",
-    "email": "oakwatcher@gmail.com"
+    "url": "https://github.com/oakfire/oak-nodejs-startup/issues",
+    "email": "oakfire@163.com"
   },
   "main": "oak-app.js",
   "scripts": {
@@ -33,7 +33,7 @@
   "author": "Xiaopei Li <xiaopei.li@geneegroup.com> (http://xiaopei.li/)",
   "contributors": [
     "Xiaopei Li <xiaopei.li@geneegroup.com> (http://xiaopei.li/)",
-    "oakfire <oakwatcher@gmail.com> (http://oak71.com)"
+    "oakfire <oakfire@163.com> (http://oak71.com)"
   ],
   "license": "MIT",
   "engines": {
