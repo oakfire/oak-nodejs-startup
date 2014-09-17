@@ -21,11 +21,6 @@
     "winston": "~0.7.3",
     "mkdirp": "~0.3.5"
   },
-  "devDependencies": {
-    "nodemon": "^1.2.0",
-    "mocha": "^1.20.1",
-    "should": "^4.0.4"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/oakfire/oak-nodejs-startup.git"
