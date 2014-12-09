@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var logger = require('../lib/logger')('test-logger');
 var config = require('../lib/config');
 

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var logger = require('../lib/logger')('oak-app');
 var config = require('../lib/config');
 

@@ -1,0 +1,8 @@
+/home/oak/oak-nodejs-startup/logs/*.log {
+  weekly
+  rotate 12
+  compress
+  notifempty
+  missingok
+  copytruncate
+}
