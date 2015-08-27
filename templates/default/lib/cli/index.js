@@ -4,16 +4,13 @@ var util = require('util');
 var path = require('path');
 var table = require('cli-table-zh');
 var colors = require('colors');
-var fs = require('fs');
-var path = require('path');
-var ncp = require('ncp').ncp;
 
 /**
  * list sth info 
  */
 program
 .command('list [sth]')
-.description('List something info testing')
+.description('List something info')
 .action(function(sth) {
     var self = this;
     var apps_table = new table( {
@@ -31,7 +28,7 @@ program
 
 program
 .command('add <file>')
-.description('command testing')
+.description('add file')
 .action(function(file) {
     file = path.resolve(process.cwd(), file);
     console.log('File path:'.green, file);
@@ -40,25 +37,12 @@ program
 });
 
 program
-.command('new <project>')
-.description('new a project in the current path')
-.action(function(project) {
-    fs.mkdirSync(project);
-    var template_path = path.join(__dirname, '../../templates/default');
-    ncp(template_path, project, function(err){
-        if(err){
-            console.log(err.toString());
-        }
-        console.log('Done!'.green);
-    });
-});
-
-program
 .command('*')
 .action(function() { program.help(); } );
 
+
 program
-.version('0.0.6')
+.version('0.0.2')
 .option('-a,--all', 'show all')
 ;
 

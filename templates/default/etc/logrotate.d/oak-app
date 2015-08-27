@@ -1,4 +1,4 @@
-/var/log/oak-app/*.log {
+/your-project-log-path/*.log {
   weekly
   rotate 12
   compress
