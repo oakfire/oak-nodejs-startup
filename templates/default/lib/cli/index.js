@@ -1,9 +1,9 @@
-
-var program = require('commander');
-var util = require('util');
-var path = require('path');
-var table = require('cli-table-zh');
-var colors = require('colors');
+"use strict"
+const program = require('commander');
+const util = require('util');
+const path = require('path');
+const table = require('cli-table-zh');
+const colors = require('colors/safe');
 
 /**
  * list sth info 
@@ -11,9 +11,8 @@ var colors = require('colors');
 program
 .command('list [sth]')
 .description('List something info')
-.action(function(sth) {
-    var self = this;
-    var apps_table = new table( {
+.action(sth => {
+    let apps_table = new table( {
             head:['First', 'Second'],
             style: { head:['cyan']}
     });
@@ -28,17 +27,18 @@ program
 
 program
 .command('add <file>')
-.description('add file')
-.action(function(file) {
+.description('command testing')
+.action( file => {
     file = path.resolve(process.cwd(), file);
-    console.log('File path:'.green, file);
-    console.log('Succeed to add.'.green);
-    console.log(('Failed to add. ' + 'Error info...' ).red);
+    console.log(colors.green('File path:'), file);
+    console.log(colors.green('Succeed to add.'));
+    const err = new Error('some error info');
+    console.log(colors.red(`Failed to add. err: ${err}`));
 });
 
 program
 .command('*')
-.action(function() { program.help(); } );
+.action(()  => program.help() );
 
 
 program

@@ -1,6 +1,6 @@
 {
   "name": "your-project",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "your-project-description",
   "main": "app.js",
   "scripts": {
@@ -9,16 +9,16 @@
   },
   "dependencies": {
     "optimist": "*",
-    "moment": "*",
-    "winston": "*",
+    "moment": "^2.16.0",
+    "winston": "^2.3.0",
     "mkdirp": "*",
     "commander": "^2.5.0",
-    "colors": "^1.0.3",
+    "colors": "^1.1.2",
     "cli-table-zh": "^0.3.1"
   },
   "license": "MIT",
   "engines": {
-    "node": ">=0.10.0",
-    "npm": ">=1.4.0"
+    "node": ">=6.7.0",
+    "npm": ">=3.10.0"
   }
 }

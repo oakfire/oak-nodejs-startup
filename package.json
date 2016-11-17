@@ -19,13 +19,13 @@
   },
   "dependencies": {
     "cli-table-zh": "^0.3.1",
-    "colors": "^1.0.3",
+    "colors": "^1.1.2",
     "commander": "^2.5.0",
     "mkdirp": "*",
-    "moment": "*",
+    "moment": "^2.16.0",
     "ncp": "^2.0.0",
     "optimist": "*",
-    "winston": "*"
+    "winston": "^2.3.0"
   },
   "repository": {
     "type": "git",
@@ -34,11 +34,11 @@
   "author": "Xiaopei Li <xiaopei.li@geneegroup.com> (http://xiaopei.li/)",
   "contributors": [
     "Xiaopei Li <xiaopei.li@geneegroup.com> (http://xiaopei.li/)",
-    "oakfire <oakfire@163.com> (http://oak71.com)"
+    "oakfire <oakfire@163.com> (http://joak.org)"
   ],
   "license": "MIT",
   "engines": {
-    "node": ">=0.10.0",
-    "npm": ">=1.4.0"
+    "node": ">=6.7.0",
+    "npm": ">=3.10.0"
   }
 }
